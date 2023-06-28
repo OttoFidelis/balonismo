@@ -4,15 +4,24 @@ public class Main {
      Piloto piloto;
      Balao balao;
 
-     p1 = new Pessoa();
-     p1.nome = "Gerivaldo";
-     p1.cpf = "889.456.345-23";
-     p1.telefone = 945563254;
-     p1.telefone_parente = 954466576;
-     p1.endereco = "rua geriátrica, 64, Telescópolis";
-     p1.termo="assinado";
+     p1 = new Pessoa("Gerialdo", "889.456.345-23",945563254,954466576,"rua geriátrica, 64, Telescópolis","Termo assinado");
+     p1.getNome = "Gerivaldo";
+     p1.getCpf = "889.456.345-23";
+     p1.getTelefone = 945563254;
+     p1.getTelefone_parente = 954466576;
+     p1.getEndereco = "rua geriátrica, 64, Telescópolis";
+     p1.getTermo="Termo assinado";
      p1.pagar();
-     Pessoa p2 =new Pessoa();
+
+     Pessoa p2 = new Pessoa("Childete","386.586.490-27",939857486,954466576,"rua geriátrica, 64, Telescópolis","Termo assinado");
+     p2.getNome = "Childete";
+     p2.getCpf = "386.586.490-27";
+     p2.getTelefone = 939857486;
+     p2.getTelefone_parente = 954466576;
+     p2.getEndereco = "rua geriátrica, 64, Telescópolis";
+     p2.getTermo="Termo assinado";
+     p2.pagar();
+
      piloto = new Piloto();
      balao = new Balao();
     }

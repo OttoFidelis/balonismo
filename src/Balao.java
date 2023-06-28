@@ -1,4 +1,6 @@
 public class Balao {
-    int numero_id;
-    int regis_regularidade;
+    private int numero_id;
+    private int regis_regularidade;
+
+
 }
