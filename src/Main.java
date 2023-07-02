@@ -22,7 +22,12 @@ public class Main {
      p2.getTermo="Termo assinado";
      p2.pagar();
 
-     piloto = new Piloto();
-     balao = new Balao();
+     piloto = new Piloto(13224334231,23);
+     piloto.getCpf = 13224334231;
+     piloto.getN_anac = 23;
+
+     balao = new Balao(132,534);
+     balao.getNumero_id = 132;
+     balao.getRegis_regularidade = 534;
     }
 }
