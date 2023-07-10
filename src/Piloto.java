@@ -3,7 +3,7 @@ public class Piloto {
     private long n_anac;
 
     public String getCpf() {
-        return cpf;
+        return this.cpf;
     }
 
     public void setCpf(String cpf) {
@@ -11,14 +11,16 @@ public class Piloto {
     }
 
     public long getN_anac() {
-        return n_anac;
+        return this.n_anac;
     }
 
     public void setN_anac(long n_anac) {
         this.n_anac = n_anac;
     }
-    Piloto(String cpf, long n_anac){
-        this.cpf=cpf;
-        this.n_anac=n_anac;
+
+    Piloto(String cpf, long n_anac) {
+        this.cpf = cpf;
+        this.n_anac = n_anac;
     }
 }
+
