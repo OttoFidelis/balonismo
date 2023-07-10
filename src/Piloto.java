@@ -1,4 +1,24 @@
 public class Piloto {
-    long cpf;
-    long n_anac;
+    private String cpf;
+    private long n_anac;
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public long getN_anac() {
+        return n_anac;
+    }
+
+    public void setN_anac(long n_anac) {
+        this.n_anac = n_anac;
+    }
+    Piloto(String cpf, long n_anac){
+        this.cpf=cpf;
+        this.n_anac=n_anac;
+    }
 }
