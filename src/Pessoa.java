@@ -10,10 +10,6 @@ public class Pessoa {
 
     private String pagar;
 
-    public String getPagar() {
-        return pagar;
-    }
-
     public void setPagar(String pagar) {
         this.pagar = pagar;
     }
@@ -75,7 +71,6 @@ public class Pessoa {
     }
 
     public String getPagar() { return pagar;}
-    public void setPagar(Sring pagar) {this.pagar=pagar;}
     Pessoa(
             String nome,
             String cpf,
@@ -83,8 +78,7 @@ public class Pessoa {
             long telefone,
             long telefone_parente,
             String endereco,
-            String termo,
-            String pagar
+            String termo
     ){
         this.nome=nome;
         this.cpf=cpf;
