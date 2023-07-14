@@ -77,8 +77,7 @@ public class Pessoa {
             String rg,
             long telefone,
             long telefone_parente,
-            String endereco,
-            String termo
+            String endereco
     ){
         this.nome=nome;
         this.cpf=cpf;
@@ -86,6 +85,5 @@ public class Pessoa {
         this.telefone=telefone;
         this.telefone_parente=telefone_parente;
         this.endereco=endereco;
-        this.termo=termo;
     }
 }
