@@ -59,7 +59,7 @@ public class Main {
         if (tcd1 ==1 && tcd2==1 ){
             System.out.println("Os dois clientes podem entrar no balão");
         }
-        if (tcd1 == 1 && tcd1 !=1){
+        if (tcd1 == 1 && tcd2 !=1){
             System.out.println("Apenas Gerialdo pode entrar no balão");
         }
         if (tcd1 !=1 && tcd2==1){
