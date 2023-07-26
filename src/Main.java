@@ -1,4 +1,4 @@
-import javax.swing.JOptionPane;
+
 import java.security.MessageDigest;
 import java.util.Scanner;
 
@@ -56,16 +56,16 @@ public class Main {
 
         System.out.println(" ");
 
-        if (tcd1 == 1 && tcd2==1){
+        if (tcd1 ==1 && tcd2==1 ){
             System.out.println("Os dois clientes podem entrar no balão");
         }
-        if (tcd1 == 1 && tcd2==0){
+        if (tcd1 == 1 && tcd1 !=1){
             System.out.println("Apenas Gerialdo pode entrar no balão");
         }
-        if (tcd1 == 0 && tcd2==1){
+        if (tcd1 !=1 && tcd2==1){
             System.out.println("Apenas Childete pode entrar no balão");
         }
-        if (tcd1 == 0 && tcd2==0){
+        if (tcd1 != 1 && tcd2 !=1 ){
             System.out.println("Nenhum dos dois clientes podem entrar no balão");
         }
         System.out.println(" ");
